@@ -7,7 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 # from sklearn.externals import joblib
 
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 
 @app.route('/')
