@@ -98,5 +98,5 @@ def predict():
     return render_template('result.html', prediction=my_prediction)
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
